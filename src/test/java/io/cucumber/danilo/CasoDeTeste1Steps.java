@@ -7,8 +7,8 @@ import io.cucumber.danilo.services.Configuracao;
 
 public class CasoDeTeste1Steps {
 
-    @Dado("que eu estou no site da Accenture")
-    public void que_eu_estou_no_site_da_Accenture() {
+    @Dado("clico em configuracoes de cookie")
+    public void clico_em_configuracoes_de_cookie() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
@@ -19,14 +19,8 @@ public class CasoDeTeste1Steps {
         throw new io.cucumber.java.PendingException();
     }
     
-    @Entao("deve fechar a caixa de informacao")
-    public void deve_fechar_a_caixa_de_informacao() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-    
-    @Dado("clico em configuracoes de cookie")
-    public void clico_em_configuracoes_de_cookie() {
+    @Entao("devo fechar a caixa de informacao")
+    public void devo_fechar_a_caixa_de_informacao() {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
@@ -42,5 +36,6 @@ public class CasoDeTeste1Steps {
         // Write code here that turns the phrase above into concrete actions
         throw new io.cucumber.java.PendingException();
     }
+ 
 }
   
