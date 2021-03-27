@@ -1,4 +1,4 @@
-package io.cucumber.danilo.config;
+package io.cucumber.danilo.services;
 
 import java.util.List;
 
@@ -27,11 +27,11 @@ public class Configuracao {
     }
 
     public static WebElement seletorQueryCss(String seletor) {
-        return  Config.browser.findElement(By.cssSelector(seletor));
+        return  Configuracao.browser.findElement(By.cssSelector(seletor));
     }
     
     public static List<WebElement> seletorQueryCssTodos(String seletor) {
-        return  Config.browser.findElements(By.cssSelector(seletor));
+        return  Configuracao.browser.findElements(By.cssSelector(seletor));
     }
     
 }    

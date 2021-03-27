@@ -1,5 +1,5 @@
 # language: pt
-
+@ignore
 Funcionalidade: Sobre a accenture
 
   Cenario: Ver as características da accenture
