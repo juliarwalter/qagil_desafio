@@ -29,7 +29,6 @@ public class CasoDeTeste1Steps {
 
     }
 
-
     @Entao("devo ver o item de {string}")
     public void devo_ver_o_item_de(String string) {
         Configuracao.seletorQueryCss(".category-item"); 
