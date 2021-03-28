@@ -2,8 +2,8 @@
 
 Funcionalidade: Sobre a accenture
 
-  Cenario: Ver as caracteristicas da accenture
+  Cenario: Ver as caracteristicas da Accenture
     Dado que eu estou no site da Accenture
-    E clico no menu sobre a accenture
-    E clico no item do menu sobre a accenture
-    Entao devo ver o destaque em "Nosso propósito"
+    E clico no menu sobre a Accenture
+    E clico no item do menu sobre a Accenture
+    Entao devo ver a frase "Nosso propósito:"
