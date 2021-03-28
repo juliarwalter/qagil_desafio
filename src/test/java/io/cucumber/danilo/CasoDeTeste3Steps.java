@@ -9,14 +9,14 @@ public class CasoDeTeste3Steps {
 
     @Dado("clico no menu carreiras")
     public void clico_no_menu_carreiras() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Configuracao.seletorQueryCss("#primaryLink2_Servios").click();
     }
 
     @Dado("clico no item do menu vagas em tecnologia")
     public void clico_no_item_do_menu_vagas_em_tecnologia() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+           // Write code here that turns the phrase above into concrete actions
+            throw new io.cucumber.java.PendingException();
+   
     }
 
     @Entao("devo ver o destaque em {string}")

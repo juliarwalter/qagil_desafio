@@ -5,7 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 
 public class Configuracao {
@@ -14,8 +14,9 @@ public class Configuracao {
     
     public static void abrir(String url){
         if(browser == null){
-            System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
-            browser = new ChromeDriver();
+            System.setProperty("webdriver.edge.driver", "driver/msedgedriver.exe");
+            browser = new EdgeDriver();
+            browser.manage().window().maximize();
         }
       
         browser.get(url);
@@ -32,7 +33,7 @@ public class Configuracao {
     
     public static List<WebElement> seletorQueryCssTodos(String seletor) {
         return  Configuracao.browser.findElements(By.cssSelector(seletor));
-    }
+    }   
     
 }    
  

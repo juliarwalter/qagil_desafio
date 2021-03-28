@@ -1,9 +1,9 @@
 # language: pt
-@ignore
+
 Funcionalidade: Acessar o site da accenture a mostrar a lista de serviços
 
   Cenario: listar servicos da Accenture
-    Dado que eu estou no site da accenture
+    Dado que eu estou no site da Accenture
     E clico no menu servicos
     Entao devo ver os servicos abaixo
       | Accenture Strategy |
