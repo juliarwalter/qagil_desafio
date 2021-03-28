@@ -1,5 +1,5 @@
 # language: pt
-@ignore
+
 Funcionalidade: Acessar o site da accenture e aceitar os cookies do LGPD
 
 Cenario: Aceitar o cookie LGPD
@@ -17,3 +17,4 @@ Cenario: Configuracoes do cookie
     E devo ver "Cookies de Desempenho e Cookies Funcionais"
     E devo ver "Cookies de Publicidade e Redes Sociais"
     E aceito os termos LGPD
+

@@ -14,13 +14,16 @@ public class CasoDeTeste1Steps {
     }
 
     @Dado("aceito os termos LGPD")
-    public void aceito_os_termos_LGPD() {
+    public void aceito_os_termos_LGPD() throws InterruptedException{
+        Thread.sleep(2000);
         Configuracao.seletorQueryCss(".save-preference-btn-handler").click();
     }
 
     @Entao("devo fechar a caixa de informacao")
-    public void devo_fechar_a_caixa_de_informacao() {
-        Configuracao.seletorQueryCss(".banner-close-button").click();
+    public void devo_fechar_a_caixa_de_informacao() throws InterruptedException{
+        Thread.sleep(2000);
+        Configuracao.seletorQueryXpath("//*[@id='header-topnav']/div/div[2]/div[1]/a").click();
+        Configuracao.fechar();
     }
     
     @Entao("devo ver {string}")
