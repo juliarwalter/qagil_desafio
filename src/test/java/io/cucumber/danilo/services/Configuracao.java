@@ -38,6 +38,10 @@ public class Configuracao {
     public static WebElement seletorQueryXpath(String seletor) {
         return  Configuracao.browser.findElement(By.xpath(seletor));
     }
+
+    public static WebElement seletorClassName(String seletor) {
+        return Configuracao.browser.findElement(By.className(seletor));
+    }
     
 }    
  
