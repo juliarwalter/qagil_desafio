@@ -8,10 +8,11 @@ import io.cucumber.danilo.services.Configuracao;
 public class CasoDeTeste2Steps {
 
     @Dado("clico no menu servicos")
-    public void clico_no_menu_servicos() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    public void clico_no_menu_servicos() throws InterruptedException{
+        Thread.sleep(2000);
+        Configuracao.seletorQueryXpath("//*[@id='navigation-menu']/div[2]/div[1]/span").click();
     }
+
 
     @Entao("devo ver os servicos abaixo")
     public void devo_ver_os_servicos_abaixo(io.cucumber.datatable.DataTable dataTable) {

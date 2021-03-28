@@ -8,8 +8,9 @@ import io.cucumber.danilo.services.Configuracao;
 public class CasoDeTeste3Steps {
 
     @Dado("clico no menu carreiras")
-    public void clico_no_menu_carreiras() {
-        Configuracao.seletorQueryCss("#primaryLink2_Servios").click();
+    public void clico_no_menu_carreiras() throws InterruptedException{
+        Thread.sleep(2000);
+        Configuracao.seletorQueryXpath("//*[@id='navigation-menu']/div[4]/div[1]/span").click();
     }
 
     @Dado("clico no item do menu vagas em tecnologia")

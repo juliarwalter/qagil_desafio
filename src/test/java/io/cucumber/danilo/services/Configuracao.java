@@ -33,7 +33,11 @@ public class Configuracao {
     
     public static List<WebElement> seletorQueryCssTodos(String seletor) {
         return  Configuracao.browser.findElements(By.cssSelector(seletor));
-    }   
+    }
+    
+    public static WebElement seletorQueryXpath(String seletor) {
+        return  Configuracao.browser.findElement(By.xpath(seletor));
+    }
     
 }    
  
