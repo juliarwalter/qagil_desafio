@@ -4,10 +4,7 @@ import static org.junit.Assert.assertEquals;
 
 import io.cucumber.java.pt.*;
 import io.cucumber.danilo.services.Configuracao;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.WebDriver;
+
 
 public class CasoDeTeste4Steps {
 
