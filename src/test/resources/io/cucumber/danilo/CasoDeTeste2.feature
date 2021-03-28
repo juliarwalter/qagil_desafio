@@ -1,5 +1,5 @@
 # language: pt
-@ignore
+
 Funcionalidade: Acessar o site da accenture a mostrar a lista de serviços
 
   Cenario: listar servicos da Accenture
@@ -29,8 +29,10 @@ Funcionalidade: Acessar o site da accenture a mostrar a lista de serviços
       | Technology Innovation |
       | Zero Based Budgeting (ZBB) |
 
+
+ 
   Cenario: Clicar no servico cloud
-    Dado que eu estou no site da accenture
+    Dado que eu estou no site da Accenture
     E clico no menu servicos
     E clico no item do menu cloud
     Entao devo encontrar o titulo "Serviços de Cloud"
