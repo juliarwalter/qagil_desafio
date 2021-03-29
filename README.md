@@ -37,28 +37,28 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   Então devo ver os serviços abaixo <br>
-    	| Accenture Strategy | <br>
-      | Application Services | <br>
-      | Artificial Intelligence | <br>
-      | Automation | <br>
-      | Business Process Services | <br>
-      | Change Management | <br>
-      | Cloud | <br>
-      | Customer Experience | <br>
-      | Data & Analytics | <br>
-      | Ecosystem Partners | <br>
-      | Finance Consulting | <br>
-      | Industry X | <br>
-      | Infrastructure | <br>
-      | Marketing | <br>
-      | Mergers & Acquisitions (M&A) | <br>
-      | Operating Models | <br>
-      | Security | <br>
-      | Supply Chain Management | <br>
-      | Sustainability | <br>
-      | Technology Consulting | <br>
-      | Technology Innovation | <br>
-      | Zero Based Budgeting (ZBB) | <br>
+  - [X] 	| Accenture Strategy | <br>
+  - [X]  | Application Services | <br>
+  - [X]  | Artificial Intelligence | <br>
+  - [X]  | Automation | <br>
+  - [X]  | Business Process Services | <br>
+  - [X]  | Change Management | <br>
+  - [X]  | Cloud | <br>
+  - [X]  | Customer Experience | <br>
+  - [X]  | Data & Analytics | <br>
+  - [X]  | Ecosystem Partners | <br>
+  - [X]  | Finance Consulting | <br>
+  - [X]  | Industry X | <br>
+  - [X]  | Infrastructure | <br>
+  - [X]  | Marketing | <br>
+  - [X]  | Mergers & Acquisitions (M&A) | <br>
+  - [X]  | Operating Models | <br>
+  - [X]  | Security | <br>
+  - [X]  | Supply Chain Management | <br>
+  - [X]  | Sustainability | <br>
+  - [X]  | Technology Consulting | <br>
+  - [X]  | Technology Innovation | <br>
+  - [X] | Zero Based Budgeting (ZBB) | <br>
  <br>
 **Cenário**: Clicar no serviço cloud <br>
   dado que eu estou no site da accenture <br>
@@ -67,7 +67,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   Então devo encontrar o título "Serviços de Cloud"<br>
    <br> <br>
   
-- [ ] Caso de teste 3
+- [x] Caso de teste 3
  >*Acessar a lista de carreiras da accenture.<br>*
  <br>
 **Cenário**: Acessar o item de vagas de tecnologia <br>
@@ -83,7 +83,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   Então devo encontrar vagas para programadores <br>
 
 
-- [ ] Caso de teste 4
+- [x] Caso de teste 4
  >*Sobre a accenture.<br>*
  <br>
  **Cenário**: Ver as características da accenture <br>
