@@ -35,7 +35,8 @@ public class CasoDeTeste2Steps {
     }
 
     @Dado("clico no item do menu cloud")
-    public void clico_no_item_do_menu_cloud() {
+    public void clico_no_item_do_menu_cloud() throws InterruptedException{
+        Thread.sleep(2000);
         Configuracao.seletorQueryXpath("//*[@id='primaryLink2_Servios']/div/div/ul/li[7]/a").click();
     }
 
