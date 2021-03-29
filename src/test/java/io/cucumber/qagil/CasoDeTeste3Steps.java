@@ -46,17 +46,17 @@ public class CasoDeTeste3Steps {
     public void digito_no_campo_de_busca(String string) {
         Configuracao.seletorQueryCss("#search-form-label").sendKeys(string);
     }
-    
+
     @Dado("clico no botao procurar")
     public void clico_no_botao_procurar() {
         Configuracao.seletorQueryCss(".search-text").click();
-   
+
     }
 
     @Entao("devo encontrar vagas para programadores")
     public void devo_encontrar_vagas_para_programadores() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        assertEquals(true, Configuracao.seletorQueryCssTodos(".results-for-keyword").size() > 0);
+        Configuracao.fechar();
     }
 
 }
