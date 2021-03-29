@@ -97,7 +97,9 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   Então devo ver o destaque em "Nosso propósito" <br>
   <br>
   
-  ## Tecnologia utilizadas
+--------------------------------------------------------------------
+
+## Tecnologias utilizadas
 :heavy_check_mark: <b>Java</b><br>
 Linguagem de programação para desenvolvimento da aplicação<br>
 
@@ -108,44 +110,84 @@ Gerenciador de dependências para o Java<br>
 Framework responsável por traduzir uma linguagem humana em código Java<br>
 
 :heavy_check_mark: <b>Selenium</b><br>
-Framework responsável por fazer a integração do código java com a linguagem Gutking(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
+Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
-## Como Utilizar
- 
+--------------------------------------------------------------------
+## Como utilizar
+### Pré requisitos
+- Instalar o java:
+https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
+- Instalar jdk
+https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
+- Verificar se o JAVA_HOME está configurado em seu computador
+
+
+
 - Clone do projeto
-```bash
-git clone 
-```
+ ```bash
+git clone https://github.com/Didox/turma-accenture-java-cucumber.git
+ ```
 
 - Entrando na pasta do projeto
-```bash
-cd qagil_desafio 
-```
+ ```bash
+cd turma-accenture-java-cucumber
+ ```
+
 - Configurando selenium em seu computador
-Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto: <br> 
-https://chromedriver.chromium.org/downloads <br>
-<b> Exemplo </b><b>
-```bash
+Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:<br>
+https://chromedriver.chromium.org/downloads<br>
+
+<b>Exemplo:</b><br>
+ ```bash
 cd driver
-curl 
+curl https://chromedriver.storage.googleapis.com/89.0.4389.23/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
 rm -rf chromedriver_linux64.zip
-cd /driver ..
-```
-- Limpando e validando maven Unix 
-```bash
-./mvnw  clean
-```
+cd ../driver
+ ```
+
+- Limpando e validando maven Unix
+ ```bash
+./mvnw clean
+ ```
+ 
 - Limpando e validando maven Windows
-```bash
+ ```bash
 mvnw.cmd clean
-```
+ ```
+
 - Executando teste no Unix
-```bash
-teste.sh
-```
+ ```bash
+./test.sh
+ ```
+
 - Executando teste no Windows
-```bash
-teste.bat
-```
+ ```bash
+test.bat
+ ```
+
+--------------------------------------------------------------------
+## Estrutura de arquivos
+<pre>
+  driver <br>
+      |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina<br>
+  mvnw<br>
+  mvnw.cmd<br>
+  pom.xml<br>
+  src<br>
+    |-- test<br>
+    |  |-- java<br>
+    |  |  |-- io<br>
+    |  |  |  |-- cucumber<br>
+    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test <br> 
+    |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação<br>
+    |  |-- resources<br>
+    |  |  |-- io<br>
+    |  |  |  |-- cucumber<br>
+    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente<br>
+  test.bat -- Arquivo para rodar teste no Windows<br>
+  test.sh -- Arquivo para rodar teste no Unix<br>
+</pre>
 
