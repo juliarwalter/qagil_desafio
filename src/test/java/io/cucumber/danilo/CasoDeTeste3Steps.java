@@ -7,6 +7,13 @@ import io.cucumber.danilo.services.Configuracao;
 
 public class CasoDeTeste3Steps {
 
+    @Dado("fecho o popup")
+    public void fecho_o_popup()throws InterruptedException{
+        Thread.sleep(2000);
+        Configuracao.seletorQueryXpath("//*[@id='onetrust-close-btn-container']/button").click();
+
+    }
+
     @Dado("clico no menu carreiras")
     public void clico_no_menu_carreiras() throws InterruptedException{
         Thread.sleep(2000);
@@ -14,22 +21,18 @@ public class CasoDeTeste3Steps {
     }
 
     @Dado("clico no item do menu vagas em tecnologia")
-    public void clico_no_item_do_menu_vagas_em_tecnologia() {
-           // Write code here that turns the phrase above into concrete actions
-            throw new io.cucumber.java.PendingException();
+    public void clico_no_item_do_menu_vagas_em_tecnologia() throws InterruptedException{
+        Thread.sleep(2000);
+        Configuracao.seletorQueryXpath("//*[@id='primaryLink4_Carreiras']/div/div/ul/li[3]/ul/li[6]/a").click();
    
     }
 
     @Entao("devo ver o destaque em {string}")
     public void devo_ver_o_destaque_em(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-    }
-
-    @Dado("que eu estou no site da accenture")
-    public void que_eu_estou_no_site_da_accenture() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Configuracao.seletorQueryCss(".area-of-interest-title ");
+        String frase = Configuracao.seletorQueryCss(".area-of-interest-title ").getText();
+        assertEquals(frase, "Carreiras em tecnologia");
+        Configuracao.fechar();
     }
 
     @Dado("digito no campo de busca {string}")

@@ -28,7 +28,7 @@ public class CasoDeTeste2Steps {
         while(it.hasNext()){
 
            word = it.next();
-           item = Configuracao.seletorQueryXpath("//*[@id='primaryLink2_Servios']/div/div/ul/li['+j+']/a").getText();
+           item = Configuracao.seletorQueryXpath("//*[@id='primaryLink2_Servios']/div/div/ul/li["+j+"]/a").getText();
            if(word.equals(item)) System.out.println(word + " e no SITE >> " + item); j++;
         }
 
