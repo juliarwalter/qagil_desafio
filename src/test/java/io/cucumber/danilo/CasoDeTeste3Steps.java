@@ -35,10 +35,16 @@ public class CasoDeTeste3Steps {
         Configuracao.fechar();
     }
 
+    @Dado("clico no menu de busca")
+    public void clico_no_menu_de_busca() throws InterruptedException{
+        Thread.sleep(2000);
+        Configuracao.seletorQueryXpath("//*[@id='header-topnav']/div/div[2]/div[1]/a").click();
+   
+    }
+
     @Dado("digito no campo de busca {string}")
     public void digito_no_campo_de_busca(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+        Configuracao.seletorQueryCss("#search-form-label").sendKeys(string);
     }
 
     @Dado("clico no botao procurar")
