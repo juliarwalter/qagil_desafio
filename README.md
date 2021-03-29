@@ -1,3 +1,7 @@
+![](https://img.shields.io/badge/cucumber-v.0.0.1-yellow.svg)
+![](https://img.shields.io/badge/selenium-v.3.141.59-green.svg)
+
+
 # Desafio da Gama Academy e Accenture 4.0 - Q: grupo QAagil
 
 Integrantes: Anne Lins, Elizandra Rocha, Gisela Keidel, Júlia R. Walter, Lauany Reis e Sarah Ramos;
