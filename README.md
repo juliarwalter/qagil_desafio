@@ -96,3 +96,56 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   e clico no item do menu sobre a accenture <br>
   Então devo ver o destaque em "Nosso propósito" <br>
   <br>
+  
+  ## Tecnologia utilizadas
+:heavy_check_mark: <b>Java</b><br>
+Linguagem de programação para desenvolvimento da aplicação<br>
+
+:heavy_check_mark: <b>Maven</b><br>
+Gerenciador de dependências para o Java<br>
+
+:heavy_check_mark: <b>Cucumber</b><br>
+Framework responsável por traduzir uma linguagem humana em código Java<br>
+
+:heavy_check_mark: <b>Selenium</b><br>
+Framework responsável por fazer a integração do código java com a linguagem Gutking(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
+
+## Como Utilizar
+ 
+- Clone do projeto
+```bash
+git clone 
+```
+
+- Entrando na pasta do projeto
+```bash
+cd qagil_desafio 
+```
+- Configurando selenium em seu computador
+Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto: <br> 
+https://chromedriver.chromium.org/downloads <br>
+<b> Exemplo </b><b>
+```bash
+cd driver
+curl 
+unzip chromedriver_linux64.zip
+rm -rf chromedriver_linux64.zip
+cd /driver ..
+```
+- Limpando e validando maven Unix 
+```bash
+./mvnw  clean
+```
+- Limpando e validando maven Windows
+```bash
+mvnw.cmd clean
+```
+- Executando teste no Unix
+```bash
+teste.sh
+```
+- Executando teste no Windows
+```bash
+teste.bat
+```
+
