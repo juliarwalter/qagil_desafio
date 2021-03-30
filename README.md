@@ -2,7 +2,7 @@
 ![](https://img.shields.io/badge/selenium-v.3.141.59-green.svg)
 
 
-# Desafio da Gama Academy e Accenture 4.0 - Q: grupo QAagil
+# Desafio da Gama Academy e Accenture 4.0 - QA: grupo QAagil :dart:
 
 Integrantes: Anne Lins, Elizandra Rocha, Gisela Keidel, Júlia R. Walter, Lauany Reis e Sarah Ramos;
 
@@ -11,7 +11,7 @@ gestão de tempo;
 
 Tecnologias utilizadas: Cucumber + Selenium, Java, Jira.
 
-# O desafio: uma aplicação de testes com Selenium e Cucumber
+# O desafio: uma aplicação de testes com Selenium e Cucumber :memo:
 Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java.
 
 - [x] Caso de teste 1
@@ -99,7 +99,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   
 --------------------------------------------------------------------
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas :computer:
 :heavy_check_mark: <b>Java</b><br>
 Linguagem de programação para desenvolvimento da aplicação<br>
 
@@ -113,7 +113,7 @@ Framework responsável por traduzir uma linguagem humana em código Java<br>
 Framework responsável por fazer a integração do código java com a linguagem Gherkin(Cucumber) abrindo o browser fazendo o teste de comportamento<br>
 
 --------------------------------------------------------------------
-## Como utilizar
+## Como utilizar :bookmark_tabs:
 ### Pré requisitos
 - Instalar o java:
 https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
@@ -167,7 +167,7 @@ test.bat
  ```
 
 --------------------------------------------------------------------
-## Estrutura de arquivos
+## Estrutura de arquivos :open_file_folder:
 <pre>
   driver <br>
       |-- chromedriver -- Este é o arquivo do selenium webdriver, substitua este arquivo com a versão da sua máquina<br>
