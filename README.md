@@ -41,28 +41,28 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   Então devo ver os serviços abaixo <br>
-  - [X] 	| Accenture Strategy | <br>
-  - [X]  | Application Services | <br>
-  - [X]  | Artificial Intelligence | <br>
-  - [X]  | Automation | <br>
-  - [X]  | Business Process Services | <br>
-  - [X]  | Change Management | <br>
-  - [X]  | Cloud | <br>
-  - [X]  | Customer Experience | <br>
-  - [X]  | Data & Analytics | <br>
-  - [X]  | Ecosystem Partners | <br>
-  - [X]  | Finance Consulting | <br>
-  - [X]  | Industry X | <br>
-  - [X]  | Infrastructure | <br>
-  - [X]  | Marketing | <br>
-  - [X]  | Mergers & Acquisitions (M&A) | <br>
-  - [X]  | Operating Models | <br>
-  - [X]  | Security | <br>
-  - [X]  | Supply Chain Management | <br>
-  - [X]  | Sustainability | <br>
-  - [X]  | Technology Consulting | <br>
-  - [X]  | Technology Innovation | <br>
-  - [X] | Zero Based Budgeting (ZBB) | <br>
+  - [x] 	| Accenture Strategy | <br>
+  - [x]  | Application Services | <br>
+  - [x]  | Artificial Intelligence | <br>
+  - [x]  | Automation | <br>
+  - [x]  | Business Process Services | <br>
+  - [x]  | Change Management | <br>
+  - [x]  | Cloud | <br>
+  - [x]  | Customer Experience | <br>
+  - [x]  | Data & Analytics | <br>
+  - [x]  | Ecosystem Partners | <br>
+  - [x]  | Finance Consulting | <br>
+  - [x]  | Industry X | <br>
+  - [x]  | Infrastructure | <br>
+  - [x]  | Marketing | <br>
+  - [x]  | Mergers & Acquisitions (M&A) | <br>
+  - [x]  | Operating Models | <br>
+  - [x]  | Security | <br>
+  - [x]  | Supply Chain Management | <br>
+  - [x]  | Sustainability | <br>
+  - [x]  | Technology Consulting | <br>
+  - [x]  | Technology Innovation | <br>
+  - [x] | Zero Based Budgeting (ZBB) | <br>
  <br>
 **Cenário**: Clicar no serviço cloud <br>
   dado que eu estou no site da accenture <br>
@@ -100,6 +100,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
 --------------------------------------------------------------------
 
 ## Tecnologias utilizadas :computer:
+=======
 :heavy_check_mark: <b>Java</b><br>
 Linguagem de programação para desenvolvimento da aplicação<br>
 
@@ -125,12 +126,12 @@ https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
 
 - Clone do projeto
  ```bash
-git clone https://github.com/Didox/turma-accenture-java-cucumber.git
+git clone https://github.com/juliarwalter/qagil_desafio.git
  ```
 
 - Entrando na pasta do projeto
  ```bash
-cd turma-accenture-java-cucumber
+cd qagil_desafio
  ```
 
 - Configurando selenium em seu computador
@@ -179,13 +180,13 @@ test.bat
     |  |-- java<br>
     |  |  |-- io<br>
     |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |-- qagil<br>
     |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test <br> 
     |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação<br>
     |  |-- resources<br>
     |  |  |-- io<br>
     |  |  |  |-- cucumber<br>
-    |  |  |  |  |-- danilo<br>
+    |  |  |  |  |-- qagil<br>
     |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente<br>
   test.bat -- Arquivo para rodar teste no Windows<br>
   test.sh -- Arquivo para rodar teste no Unix<br>
