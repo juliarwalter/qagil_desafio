@@ -41,28 +41,28 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   Então devo ver os serviços abaixo <br>
-  - [x] 	| Accenture Strategy | <br>
-  - [x]  | Application Services | <br>
-  - [x]  | Artificial Intelligence | <br>
-  - [x]  | Automation | <br>
-  - [x]  | Business Process Services | <br>
-  - [x]  | Change Management | <br>
-  - [x]  | Cloud | <br>
-  - [x]  | Customer Experience | <br>
-  - [x]  | Data & Analytics | <br>
-  - [x]  | Ecosystem Partners | <br>
-  - [x]  | Finance Consulting | <br>
-  - [x]  | Industry X | <br>
-  - [x]  | Infrastructure | <br>
-  - [x]  | Marketing | <br>
-  - [x]  | Mergers & Acquisitions (M&A) | <br>
-  - [x]  | Operating Models | <br>
-  - [x]  | Security | <br>
-  - [x]  | Supply Chain Management | <br>
-  - [x]  | Sustainability | <br>
-  - [x]  | Technology Consulting | <br>
-  - [x]  | Technology Innovation | <br>
-  - [x] | Zero Based Budgeting (ZBB) | <br>
+  -	| Accenture Strategy | <br>
+  -	| Application Services | <br>
+  -	| Artificial Intelligence | <br>
+  -	| Automation | <br>
+  -	| Business Process Services | <br>
+  -	| Change Management | <br>
+  -	| Cloud | <br>
+  -	| Customer Experience | <br>
+  -	| Data & Analytics | <br>
+  -	| Ecosystem Partners | <br>
+  -	| Finance Consulting | <br>
+  -	| Industry X | <br>
+  -	| Infrastructure | <br>
+  -	| Marketing | <br>
+  -	| Mergers & Acquisitions (M&A) | <br>
+  -	| Operating Models | <br>
+  -	| Security | <br>
+  -	| Supply Chain Management | <br>
+  -	| Sustainability | <br>
+  -	| Technology Consulting | <br>
+  -	| Technology Innovation | <br>
+  -	| Zero Based Budgeting (ZBB) | <br>
  <br>
 **Cenário**: Clicar no serviço cloud <br>
   dado que eu estou no site da accenture <br>
@@ -100,7 +100,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
 --------------------------------------------------------------------
 
 ## Tecnologias utilizadas :computer:
-=======
+
 :heavy_check_mark: <b>Java</b><br>
 Linguagem de programação para desenvolvimento da aplicação<br>
 
@@ -192,6 +192,7 @@ test.bat
   test.sh -- Arquivo para rodar teste no Unix<br>
 </pre>
 
-=======
+---------------------------------------------------------------------
 Para maiores detalhes sobre o processo de desenvolvimento assista o vídeo em: https://youtu.be/bwzEK0Alh7E
+
 
