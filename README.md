@@ -4,7 +4,7 @@
 
 # Desafio da Gama Academy e Accenture 4.0 - QA: grupo QAagil :dart:
 
-Integrantes: Anne Lins, Elizandra Rocha, Gisela Keidel, Júlia R. Walter, Lauany Reis e Sarah Ramos;
+Integrantes: Annelise Lins, Elizandra Rocha, Gisela Keidel, Júlia R. Walter, Lauany Reis e Sarah Ramos;
 
 Objetivo: Implementar os conteúdos abordados sobre testes com API, Devops, metodologias ágeis, 
 gestão de tempo;
