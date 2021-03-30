@@ -192,3 +192,5 @@ test.bat
   test.sh -- Arquivo para rodar teste no Unix<br>
 </pre>
 
+
+Para maiores detalhes sobre o processo de desenvolvimento assista o vídeo em: https://youtu.be/bwzEK0Alh7E
