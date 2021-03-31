@@ -1,3 +1,4 @@
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ef72d6f457b4617ada9ce745667d7f4)](https://www.codacy.com/gh/juliarwalter/qagil_desafio/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=juliarwalter/qagil_desafio&amp;utm_campaign=Badge_Grade)
 ![](https://img.shields.io/badge/cucumber-v.0.0.1-yellow.svg)
 ![](https://img.shields.io/badge/selenium-v.3.141.59-green.svg)
 
@@ -27,15 +28,15 @@ gestão de tempo;
 # O desafio: uma aplicação de testes com Selenium e Cucumber :memo:
 Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java.
 
-- <b>[x] Caso de teste 1</b>
+- [x] <b>Caso de teste 1</b>
  >*Acessar o site da accenture e aceitar os cookies do LGPD.<br>*
  <br>
-<b>**Cenário**:</b> Aceitar o cookie LGPD <br>
+<b>Cenário:</b> Aceitar o cookie LGPD <br>
   dado que eu estou no site da accenture <br>
   e aceito os termos LGPD <br>
   Então deve fechar a caixa de informação <br>
  <br>
-<b>**Cenário**:</b> Configurações do cookie <br>
+<b>Cenário:</b> Configurações do cookie <br>
   dado que eu estou no site da accenture <br>
   e aceito os termos LGPD <br>
   e clico em configurações de cookie <br>
@@ -47,10 +48,10 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
  <br> <br>
 
 
-- <b>[x] Caso de teste 2</b>
+- [x] <b>Caso de teste 2</b>
  >*Acessar o site da accenture a mostrar a lista de serviços.<br>*
  <br>
-<b>**Cenário**:</b> listar serviços da Accenture <br>
+<b>Cenário:</b> listar serviços da Accenture <br>
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   Então devo ver os serviços abaixo <br>
@@ -77,33 +78,33 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   -	| Technology Innovation | <br>
   -	| Zero Based Budgeting (ZBB) | <br>
  <br>
-<b>**Cenário**:</b> Clicar no serviço cloud <br>
+<b>Cenário:</b> Clicar no serviço cloud <br>
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   e clico no item do menu cloud <br>
   Então devo encontrar o título "Serviços de Cloud"<br>
    <br> <br>
   
-- <b>[x] Caso de teste 3</b>
+- [x] <b> Caso de teste 3</b>
  >*Acessar a lista de carreiras da accenture.<br>*
  <br>
-<b>**Cenário**:</b> Acessar o item de vagas de tecnologia <br>
+<b>Cenário:</b> Acessar o item de vagas de tecnologia <br>
   dado que eu estou no site da accenture <br>
   e clico no menu carreiras <br>
   e clico no item do menu vagas em tecnologia <br>
   Então devo ver o destaque em "Carreiras em Tecnologia" <br>
  <br>
-<b>**Cenário**:</b> Procurando uma vaga <br>
+<b>Cenário:</b> Procurando uma vaga <br>
   dado que eu estou no site da accenture <br>
   e digito no campo de busca "desenvolvedor" <br>
   e clico no botão procurar <br>
   Então devo encontrar vagas para programadores <br>
 
 
-- <b>[x] Caso de teste 4</b>
+- [x] <b>Caso de teste 4</b>
  >*Sobre a accenture.<br>*
  <br>
- <b>**Cenário**:</b> Ver as características da accenture <br>
+ <b>Cenário:</b> Ver as características da accenture <br>
   dado que eu estou no site da accenture <br>
   e clico no menu sobre a accenture <br>
   e clico no item do menu sobre a accenture <br>
@@ -211,6 +212,6 @@ test.bat
 ---------------------------------------------------------------------
 <br>
 <br>
-Para maiores detalhes sobre o processo de desenvolvimento assista o nosso vídeo: https://www.youtube.com/watch?v=bwzEK0Alh7E
+Para maiores detalhes sobre o processo de desenvolvimento assista o nosso vídeo na íntegra: https://www.youtube.com/watch?v=bwzEK0Alh7E
 
 
