@@ -144,8 +144,8 @@ cd qagil_desafio
  ```
 
 - Configurando selenium em seu computador
-Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto:<br>
-https://chromedriver.chromium.org/downloads<br>
+Fazer o download do [Chrome Webdriver](https://chromedriver.chromium.org/downloads) e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto:<br>
+<br>
 
 <b>Exemplo:</b><br>
  ```bash
@@ -211,6 +211,6 @@ test.bat
 ---------------------------------------------------------------------
 <br>
 <br>
-Para maiores detalhes sobre o processo de desenvolvimento assista o nosso [vídeo](https://youtu.be/bwzEK0Alh7E)
+Para maiores detalhes sobre o processo de desenvolvimento assista o nosso [video](https://www.youtube.com/watch?v=bwzEK0Alh7E)
 
 
