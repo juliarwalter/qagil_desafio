@@ -77,33 +77,33 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   -	| Technology Innovation | <br>
   -	| Zero Based Budgeting (ZBB) | <br>
  <br>
-**Cenário**: Clicar no serviço cloud <br>
+<b>**Cenário**:</b> Clicar no serviço cloud <br>
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   e clico no item do menu cloud <br>
   Então devo encontrar o título "Serviços de Cloud"<br>
    <br> <br>
   
-- [x] Caso de teste 3
+- <b>[x] Caso de teste 3</b>
  >*Acessar a lista de carreiras da accenture.<br>*
  <br>
-**Cenário**: Acessar o item de vagas de tecnologia <br>
+<b>**Cenário**:</b> Acessar o item de vagas de tecnologia <br>
   dado que eu estou no site da accenture <br>
   e clico no menu carreiras <br>
   e clico no item do menu vagas em tecnologia <br>
   Então devo ver o destaque em "Carreiras em Tecnologia" <br>
  <br>
-**Cenário**: Procurando uma vaga <br>
+<b>**Cenário**:</b> Procurando uma vaga <br>
   dado que eu estou no site da accenture <br>
   e digito no campo de busca "desenvolvedor" <br>
   e clico no botão procurar <br>
   Então devo encontrar vagas para programadores <br>
 
 
-- [x] Caso de teste 4
+- <b>[x] Caso de teste 4</b>
  >*Sobre a accenture.<br>*
  <br>
- **Cenário**: Ver as características da accenture <br>
+ <b>**Cenário**:</b> Ver as características da accenture <br>
   dado que eu estou no site da accenture <br>
   e clico no menu sobre a accenture <br>
   e clico no item do menu sobre a accenture <br>
@@ -211,6 +211,6 @@ test.bat
 ---------------------------------------------------------------------
 <br>
 <br>
-Para maiores detalhes sobre o processo de desenvolvimento assista o nosso [video](https://www.youtube.com/watch?v=bwzEK0Alh7E)
+Para maiores detalhes sobre o processo de desenvolvimento assista o nosso vídeo: https://www.youtube.com/watch?v=bwzEK0Alh7E
 
 
