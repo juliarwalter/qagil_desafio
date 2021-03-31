@@ -13,8 +13,9 @@
 <li>Lauany Reis</li> 
 <li>Sarah Ramos</li>
 </ul> 
+<br>
 
-Objetivo: Implementar os conteúdos abordados sobre testes com API, Devops, metodologias ágeis, 
+## <b>Objetivo:<b> Implementar os conteúdos abordados sobre testes com API, Devops, metodologias ágeis, 
 gestão de tempo;
 
 Tecnologias utilizadas: Cucumber + Selenium, Java, Jira.
