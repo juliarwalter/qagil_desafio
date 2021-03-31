@@ -99,7 +99,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
   e digito no campo de busca "desenvolvedor" <br>
   e clico no botão procurar <br>
   Então devo encontrar vagas para programadores <br>
-
+   <br> <br>
 
 - [x] <b>Caso de teste 4</b>
  >*Sobre a accenture.<br>*
