@@ -76,12 +76,12 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
 	-	| Technology Innovation | <br>
 	-	| Zero Based Budgeting (ZBB) | <br>	
  <br>
-<b>Cenário:</b> Clicar no serviço cloud <br>
-dado que eu estou no site da accenture <br>
-e clico no menu serviços <br>
-e clico no item do menu cloud <br>
-Então devo encontrar o título "Serviços de Cloud"<br>
-<br> <br>
+	<b>Cenário:</b> Clicar no serviço cloud <br>
+	dado que eu estou no site da accenture <br>
+	e clico no menu serviços <br>
+	e clico no item do menu cloud <br>
+	Então devo encontrar o título "Serviços de Cloud"<br>
+	<br> <br>
   
 - [x] <b> Caso de teste 3</b>
 	>*Acessar a lista de carreiras da accenture.<br>*
@@ -109,8 +109,6 @@ Então devo encontrar o título "Serviços de Cloud"<br>
 	Então devo ver o destaque em "Nosso propósito" <br>
 	<br>
   
-'--------------------------------------------------------------------'
-
 ## Tecnologias utilizadas :computer:
 
 :heavy_check_mark: <b>Java</b><br>
