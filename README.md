@@ -5,7 +5,7 @@
 # Desafio da Gama Academy e Accenture 4.0 - QA: grupo QAagil :dart:
 
 <b>Integrantes:</b></br>
-<ul
+<ul>
 <li>Annelise Lins</li>
 <li>Elizandra Rocha</li> 
 <li>Gisela Keidel</li> 
