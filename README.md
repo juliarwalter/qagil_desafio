@@ -15,10 +15,16 @@
 </ul> 
 <br>
 
-## <b>Objetivo:<b> Implementar os conteúdos abordados sobre testes com API, Devops, metodologias ágeis, 
+<b>Objetivo:<b> Implementar os conteúdos abordados sobre testes com API, Devops, metodologias ágeis, 
 gestão de tempo;
 
-Tecnologias utilizadas: Cucumber + Selenium, Java, Jira.
+<b>Tecnologias utilizadas:</b><br>
+<ul>
+<li>Cucumber</li> 
+<li>Selenium</li>
+<li>Java</li>
+<li>Jira</li>
+</ul>
 
 Etapas de elaboração: https://www.powtoon.com/online-presentation/bGwqGNZsY2T/?utm_medium=SocialShare&utm_campaign=studio-share%2Bshare%2Bby%2Bowner&utm_source=studio-share-button&utm_content=bGwqGNZsY2T&utm_po=33523108&mode=movie
 
