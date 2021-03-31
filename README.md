@@ -1,3 +1,5 @@
+[![GitHub issues](https://img.shields.io/github/issues/juliarwalter/qagil_desafio)](https://github.com/juliarwalter/qagil_desafio/issues)
+[![GitHub license](https://img.shields.io/github/license/juliarwalter/qagil_desafio)](https://github.com/juliarwalter/qagil_desafio/blob/main/LICENSE)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/2ef72d6f457b4617ada9ce745667d7f4)](https://www.codacy.com/gh/juliarwalter/qagil_desafio/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=juliarwalter/qagil_desafio&amp;utm_campaign=Badge_Grade)
 ![](https://img.shields.io/badge/cucumber-v.0.0.1-yellow.svg)
 ![](https://img.shields.io/badge/selenium-v.3.141.59-green.svg)
