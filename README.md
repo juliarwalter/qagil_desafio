@@ -17,16 +17,10 @@
 
 <b>Objetivo:</b> Implementar os conteúdos abordados sobre testes com API, Devops, metodologias ágeis, 
 gestão de tempo;
+<br>
+<br>
 
-<b>Tecnologias utilizadas:</b><br>
-<ul>
-<li>Cucumber</li> 
-<li>Selenium</li>
-<li>Java</li>
-<li>Jira</li>
-</ul>
-
-## <b>[Veja aqui as etapas de elaboração](https://www.powtoon.com/online-presentation/bGwqGNZsY2T/?utm_medium=SocialShare&utm_campaign=studio-share%2Bshare%2Bby%2Bowner&utm_source=studio-share-button&utm_content=bGwqGNZsY2T&utm_po=33523108&mode=movie)
+## <b>[Veja aqui as etapas de elaboração](https://www.powtoon.com/online-presentation/bGwqGNZsY2T/?utm_medium=SocialShare&utm_campaign=studio-share%2Bshare%2Bby%2Bowner&utm_source=studio-share-button&utm_content=bGwqGNZsY2T&utm_po=33523108&mode=movie)</b>
  <br>
  <br>
 
@@ -135,11 +129,9 @@ Framework responsável por fazer a integração do código java com a linguagem 
 --------------------------------------------------------------------
 ## Como utilizar :bookmark_tabs:
 ### Pré requisitos
-- Instalar o java:
-https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
-- Instalar jdk
-https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
-- Verificar se o JAVA_HOME está configurado em seu computador
+- Instalar o [java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
+- Instalar o [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html)
+- Verificar se o JAVA_HOME está configurado em seu computador.
 
 - Clone do projeto
  ```bash
@@ -217,6 +209,8 @@ test.bat
 </pre>
 
 ---------------------------------------------------------------------
-Para maiores detalhes sobre o processo de desenvolvimento assista o vídeo em: https://youtu.be/bwzEK0Alh7E
+<br>
+<br>
+Para maiores detalhes sobre o processo de desenvolvimento assista o nosso [vídeo](https://youtu.be/bwzEK0Alh7E)
 
 
