@@ -11,6 +11,8 @@ gestão de tempo;
 
 Tecnologias utilizadas: Cucumber + Selenium, Java, Jira.
 
+Etapas de elaboração: https://www.powtoon.com/online-presentation/bGwqGNZsY2T/?utm_medium=SocialShare&utm_campaign=studio-share%2Bshare%2Bby%2Bowner&utm_source=studio-share-button&utm_content=bGwqGNZsY2T&utm_po=33523108&mode=movie
+
 # O desafio: uma aplicação de testes com Selenium e Cucumber :memo:
 Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java.
 
@@ -102,7 +104,7 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
 ## Tecnologias utilizadas :computer:
 
 :heavy_check_mark: <b>Java</b><br>
-Linguagem de programação para desenvolvimento da aplicação<br>
+Linguagem de programação para desenvolvimento da aplicação <br>
 
 :heavy_check_mark: <b>Maven</b><br>
 Gerenciador de dependências para o Java<br>
@@ -122,8 +124,6 @@ https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
 https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html
 - Verificar se o JAVA_HOME está configurado em seu computador
 
-
-
 - Clone do projeto
  ```bash
 git clone https://github.com/juliarwalter/qagil_desafio.git
@@ -135,7 +135,7 @@ cd qagil_desafio
  ```
 
 - Configurando selenium em seu computador
-Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na rapiz do projeto:<br>
+Fazer o download do Chrome Webdriver e colocar o arquivo descompactado dentro da pasta driver na raiz do projeto:<br>
 https://chromedriver.chromium.org/downloads<br>
 
 <b>Exemplo:</b><br>
@@ -181,13 +181,20 @@ test.bat
     |  |  |-- io<br>
     |  |  |  |-- cucumber<br>
     |  |  |  |  |-- qagil<br>
-    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test <br> 
-    |  |  |  |  |  |-- ValidarCpfStep.java -- Passos escritos em java com selenium abrindo o browser e testando a aplicação<br>
+    |  |  |  |  |  |-- CasoDeTeste1Steps.java -- Passos escritos em java com selenium: Caso de teste 1 <br> 
+    |  |  |  |  |  |-- CasoDeTeste2Steps.java -- Passos escritos em java com selenium: Caso de teste 2 <br> 
+    |  |  |  |  |  |-- CasoDeTeste3Steps.java -- Passos escritos em java com selenium: Caso de teste 3 <br> 
+    |  |  |  |  |  |-- CasoDeTeste4Steps.java -- Passos escritos em java com selenium: Caso de teste 4 <br> 
+    |  |  |  |  |  |-- CompartilhadoSteps.java -- Passos escritos em java com selenium: Caso compartilhado <br> 
+    |  |  |  |  |  |-- RunCucumberTest.java -- Arquivo que configura a inicialização do Java test 
     |  |-- resources<br>
     |  |  |-- io<br>
     |  |  |  |-- cucumber<br>
     |  |  |  |  |-- qagil<br>
-    |  |  |  |  |  |-- validadorCpf.feature -- Gherkin com os cenários de teste de acordo com o meu cliente<br>
+    |  |  |  |  |  |-- CasoDeTeste1.feature -- Gherkin com os cenários: Caso de teste 1 <br>
+    |  |  |  |  |  |-- CasoDeTeste2.feature -- Gherkin com os cenários: Caso de teste 1 <br>
+    |  |  |  |  |  |-- CasoDeTeste3.feature -- Gherkin com os cenários: Caso de teste 1 <br>  
+    |  |  |  |  |  |-- CasoDeTeste4.feature -- Gherkin com os cenários: Caso de teste 1 <br>
   test.bat -- Arquivo para rodar teste no Windows<br>
   test.sh -- Arquivo para rodar teste no Unix<br>
 </pre>
