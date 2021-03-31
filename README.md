@@ -26,7 +26,9 @@ gestão de tempo;
 <li>Jira</li>
 </ul>
 
-<b>[Etapas de elaboração](https://www.powtoon.com/online-presentation/bGwqGNZsY2T/?utm_medium=SocialShare&utm_campaign=studio-share%2Bshare%2Bby%2Bowner&utm_source=studio-share-button&utm_content=bGwqGNZsY2T&utm_po=33523108&mode=movie)
+## <b>[Veja aqui as etapas de elaboração](https://www.powtoon.com/online-presentation/bGwqGNZsY2T/?utm_medium=SocialShare&utm_campaign=studio-share%2Bshare%2Bby%2Bowner&utm_source=studio-share-button&utm_content=bGwqGNZsY2T&utm_po=33523108&mode=movie)
+ <br>
+ <br>
 
 # O desafio: uma aplicação de testes com Selenium e Cucumber :memo:
 Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java.
