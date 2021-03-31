@@ -27,15 +27,15 @@ gestão de tempo;
 # O desafio: uma aplicação de testes com Selenium e Cucumber :memo:
 Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java.
 
-- [x] Caso de teste 1
+- <b>[x] Caso de teste 1</b>
  >*Acessar o site da accenture e aceitar os cookies do LGPD.<br>*
  <br>
-**Cenário**: Aceitar o cookie LGPD <br>
+<b>**Cenário**:</b> Aceitar o cookie LGPD <br>
   dado que eu estou no site da accenture <br>
   e aceito os termos LGPD <br>
   Então deve fechar a caixa de informação <br>
  <br>
-**Cenário**: Configurações do cookie <br>
+<b>**Cenário**:</b> Configurações do cookie <br>
   dado que eu estou no site da accenture <br>
   e aceito os termos LGPD <br>
   e clico em configurações de cookie <br>
@@ -47,10 +47,10 @@ Validação no site da Accenture utilizando Cucumber, Selenium WebDriver em Java
  <br> <br>
 
 
-- [x] Caso de teste 2
+- <b>[x] Caso de teste 2</b>
  >*Acessar o site da accenture a mostrar a lista de serviços.<br>*
  <br>
-**Cenário**: listar serviços da Accenture <br>
+<b>**Cenário**:</b> listar serviços da Accenture <br>
   dado que eu estou no site da accenture <br>
   e clico no menu serviços <br>
   Então devo ver os serviços abaixo <br>
