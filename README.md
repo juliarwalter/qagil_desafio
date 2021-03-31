@@ -208,4 +208,4 @@ Framework responsável por fazer a integração do código java com a linguagem 
 ---------------------------------------------------------------------
 <br>
 <br>
-Para maiores detalhes sobre o processo de desenvolvimento assista o nosso vídeo na íntegra: https://www.youtube.com/watch?v=bwzEK0Alh7E
+Para maiores detalhes sobre o processo de desenvolvimento assista o nosso vídeo na íntegra: https://youtu.be/FQHOEOrmEP0
